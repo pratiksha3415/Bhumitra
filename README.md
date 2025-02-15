@@ -14,5 +14,10 @@ The AI Land Consolidation Platform is designed to optimize land usage and facili
 - **Report Generation** – Exports consolidated land reports in PDF and Excel formats.
 - **Deployment & Hosting** – Ensures accessibility and scalability of the platform.
 
+## Technology Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Python, Flask
+- **Algorithm:** K-Clustering for map generation
+
 ## Expected Impact
 The AI Land Consolidation Platform aims to improve land usage efficiency, reduce disputes, and support sustainable land management by leveraging AI and GIS technologies. This will benefit rural communities, government agencies, and private landowners by streamlining the consolidation process and enhancing decision-making.
