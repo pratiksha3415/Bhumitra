@@ -1,5 +1,4 @@
-Project Title :
-	Land Consolidation (Chakbandi) using AI Algorithms
+**Land Consolidation (Chakbandi) using AI Algorithms**
 
 Project Description
 This project aims to modernize Land Consolidation (Chakbandi) by utilizing AI algorithms and satellite imagery to streamline the process of land reorganization. The system automates land evaluation and consolidation by analyzing geographical and cadastral data, ensuring efficient and dispute-free land distribution.
