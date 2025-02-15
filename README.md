@@ -71,7 +71,7 @@ venv\Scripts\activate      # Activate on Windows
 Install all necessary Python libraries using:  
 
 ```bash
-pip install flask pandas numpy matplotlib scipy
+pip install flask pandas numpy matplotlib scipy torch torchvision.transforms sklearn.cluster KMeans 
 ```
 
 ---
