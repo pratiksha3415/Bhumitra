@@ -10,7 +10,6 @@ The AI Land Consolidation Platform is designed to optimize land usage and facili
 - **Cadastral Map Integration** – Incorporates official land records for precise planning.
 - **Land Consolidation Optimization** – AI-driven algorithms to optimize land redistribution.
 - **User Authentication** – Secure login and access control for stakeholders.
-- **Custom API Hooks** – Efficient data fetching and processing.
 - **AI-Powered Decision Making** – Suggests optimal land redistribution strategies.
 - **Report Generation** – Exports consolidated land reports in PDF and Excel formats.
 - **Deployment & Hosting** – Ensures accessibility and scalability of the platform.
