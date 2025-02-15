@@ -1,0 +1,151 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f1e8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #2e8b57, #145a32);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.sub-header {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-top: 0.5rem;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Card Container */
+.card-container-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Card Styling */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #2e8b57;
+    margin-bottom: 1rem;
+}
+
+/* Upload Box */
+.drag-drop-box {
+    border: 2px dashed #2e8b57;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.drag-drop-box:hover {
+    background-color: #f8f9fa;
+}
+
+.dragover {
+    background-color: #e8f5e9;
+    border-color: #1b5e20;
+}
+
+/* File Upload */
+.file-upload-input {
+    display: none;
+}
+
+.file-upload-label {
+    display: block;
+    width: 100%;
+}
+
+/* Button */
+.analyze-btn {
+    background: #2e8b57;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.analyze-btn:hover {
+    background: #1b5e20;
+}
+
+/* Result Section */
+.result-section {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.result-section h3 {
+    color: #2e8b57;
+    margin-bottom: 1rem;
+}
+
+.result-section img {
+    max-width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.loading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #007bff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: none; /* Hidden by default */
+}
+.dataset-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.dataset-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 2.5rem; /* Bigger button */
+    background-color: #2e8b57; /* Matching green color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem; /* Bigger text */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.dataset-btn:hover {
+    background-color: #1b5e20; /* Darker green on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
