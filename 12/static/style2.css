@@ -120,32 +120,21 @@ header {
     border-radius: 5px;
     display: none; /* Hidden by default */
 }
-.dataset-btn-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.dataset-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 1rem 2.5rem; /* Bigger button */
-    background-color: #2e8b57; /* Matching green color */
+.view-dataset-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #28a745;
     color: white;
+    text-align: center;
+    font-size: 16px;
     border: none;
-    border-radius: 8px;
-    font-size: 1.2rem; /* Bigger text */
+    border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s;
+    text-decoration: none;
 }
-
-.dataset-btn:hover {
-    background-color: #1b5e20; /* Darker green on hover */
-    transform: translateY(-3px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+.view-dataset-btn:hover {
+    background-color: #218838;
 }
