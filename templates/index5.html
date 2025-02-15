@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Land Consolidation Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style5.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <h1>Final Land Consolidation Data</h1>
+        </div>
+    </nav>
+
+    <main>
+        <div class="table-container">
+            <div id="tableWrapper">
+                <table id="excelTable">
+                    <thead>
+                        <tr>
+                            <th>Sr No</th>
+                            <th>Owner Name</th>
+                            <th>Total Area</th>
+                            <th>Evaluated Area</th>
+                            <th>Average</th>
+                            <th>Percentage Result</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- Data will be inserted here dynamically -->
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="{{ url_for('second_page') }}" style="text-decoration: none;">
+            <button id="generateMapBtn">Generate Map</button>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='script5.js') }}"></script>
+</body>
+</html>
