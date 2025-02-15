@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Display - Uttar Pradesh</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style3.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Data Display</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div class="filters">
+            <div class="select-wrapper">
+                <select id="district" class="custom-select">
+                    <option value="">Select District</option>
+                    <option value="agra">Agra</option>
+                    <option value="lucknow">Lucknow</option>
+                    <option value="kanpur">Kanpur</option>
+                    <!-- Add more districts as needed -->
+                </select>
+            </div>
+
+            <div class="select-wrapper">
+                <select id="taluka" class="custom-select">
+                    <option value="">Select Taluka</option>
+                    <!-- Options will be populated via JavaScript -->
+                </select>
+            </div>
+
+            <div class="select-wrapper">
+                <select id="village" class="custom-select">
+                    <option value="">Select Village</option>
+                    <!-- Options will be populated via JavaScript -->
+                </select>
+            </div>
+
+            <div class="select-wrapper">
+                <select id="tehsil" class="custom-select">
+                    <option value="">Select Tehsil</option>
+                    <!-- Options will be populated via JavaScript -->
+                </select>
+            </div>
+        </div>
+
+        <button class="process-btn">
+            <span class="btn-text">In Process</span>
+            <div class="spinner"></div>
+        </button>
+
+        <div class="tables-container">
+            <div class="table-wrapper">
+                <div class="table-scroll">
+                    <table id="table1">
+                        <tbody>
+                            <!-- Data will be populated via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- More table wrappers will be added when Excel data is provided -->
+        </div>
+        <br>
+        <a href="{{ url_for('second_page') }}" style="text-decoration: none;">
+            <button class="map-btn">
+                <span class="btn-text">Generate Map</span>
+                <svg class="map-icon" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/>
+                </svg>
+            </button>
+        </a>
+        
+
+    <script src="{{ url_for('static', filename='script3.js') }}"></script>
+</body>
+</html>
