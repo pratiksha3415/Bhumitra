@@ -1,45 +1,44 @@
-**Land Consolidation (Chakbandi) using AI Algorithms**
+# Land Consolidation (Chakbandi) using AI Algorithms
 
-Project Description
+## Project Description
 This project aims to modernize Land Consolidation (Chakbandi) by utilizing AI algorithms and satellite imagery to streamline the process of land reorganization. The system automates land evaluation and consolidation by analyzing geographical and cadastral data, ensuring efficient and dispute-free land distribution.
 
 Our web-based platform provides multiple AI-driven algorithms that:
 
-Analyze satellite images to detect edges, boundaries, forests, water resources, and infrastructure.
-Generate cadastral maps from the given geospatial data.
-Evaluate land data based on Chakbandi requirements.
-Display the final evaluated cadastral map for optimized land consolidation.
+- Analyze satellite images to detect edges, boundaries, forests, water resources, and infrastructure.
+- Generate cadastral maps from the given geospatial data.
+- Evaluate land data based on Chakbandi requirements.
+- Display the final evaluated cadastral map for optimized land consolidation.
+
 By integrating AI and geospatial analysis, this system ensures precision, fairness, and efficiency in land consolidation, benefiting farmers, landowners, and policymakers.
 
-Our project utilizes a combination of frontend, backend, and data processing technologies to ensure efficient land consolidation using AI algorithms.
+## Technology Stack
 
-Frontend:
+### Frontend:
+- **HTML, CSS, JavaScript, Bootstrap** – For building an interactive and user-friendly web interface.
 
-HTML, CSS, JavaScript, Bootstrap – For building an interactive and user-friendly web interface.
-Backend:
+### Backend:
+- **Python (Flask)** – For handling requests, processing data, and managing backend operations.
 
-Python (Flask) – For handling requests, processing data, and managing backend operations.
-Data Processing & Analysis:
+### Data Processing & Analysis:
+- **Pandas, NumPy** – For handling and analyzing geospatial and cadastral data.
+- **Matplotlib** – For visualizing land maps and data insights.
+- **Scipy (Voronoi, voronoi_plot_2d)** – For generating and plotting Voronoi diagrams to assist in land segmentation.
+- **Matplotlib Patches (Polygon)** – For rendering land boundaries and infrastructure details.
 
-Pandas, NumPy – For handling and analyzing geospatial and cadastral data.
-Matplotlib – For visualizing land maps and data insights.
-Scipy (Voronoi, voronoi_plot_2d) – For generating and plotting Voronoi diagrams to assist in land segmentation.
-Matplotlib Patches (Polygon) – For rendering land boundaries and infrastructure details.
-Data Handling:
+### Data Handling:
+- **JSON** – For structuring and exchanging data between the frontend and backend.
+- **OS** – For file management and handling system operations.
 
-JSON – For structuring and exchanging data between the frontend and backend.
-OS – For file management and handling system operations.
 This robust tech stack enables precise data processing, AI-driven insights, and seamless user interaction for land consolidation.
-
-
-
-### **Installation & Setup**  
-
-Follow the steps below to set up and run the **Land Consolidation (Chakbandi) using AI Algorithms** project on your local machine.  
 
 ---
 
-### **1. Prerequisites**  
+## Installation & Setup  
+
+Follow the steps below to set up and run the **Land Consolidation (Chakbandi) using AI Algorithms** project on your local machine.  
+
+### 1. Prerequisites  
 Ensure you have the following installed on your system:  
 - **Python (3.x)** – [Download & Install Python](https://www.python.org/downloads/)  
 - **pip** (Python package manager) – Comes with Python by default  
@@ -47,7 +46,7 @@ Ensure you have the following installed on your system:
 
 ---
 
-### **2. Clone the Repository**  
+### 2. Clone the Repository  
 Use Git to clone the project repository:  
 ```bash
 git clone <repository_url>
@@ -57,7 +56,7 @@ If you don’t have Git, you can download the repository as a ZIP file and extra
 
 ---
 
-### **3. Set Up a Virtual Environment** (Recommended)  
+### 3. Set Up a Virtual Environment (Recommended)  
 Creating a virtual environment helps manage dependencies efficiently.  
 
 ```bash
@@ -68,7 +67,7 @@ venv\Scripts\activate      # Activate on Windows
 
 ---
 
-### **4. Install Required Dependencies**  
+### 4. Install Required Dependencies  
 Install all necessary Python libraries using:  
 
 ```bash
@@ -77,7 +76,7 @@ pip install flask pandas numpy matplotlib scipy
 
 ---
 
-### **5. Run the Flask Server**  
+### 5. Run the Flask Server  
 Execute the following command to start the backend server:  
 ```bash
 python app.py
@@ -87,14 +86,15 @@ By default, the Flask server will run on:
 
 ---
 
-### **6. Open the Web Application**  
+### 6. Open the Web Application  
 - Open your browser and go to:  
   **`http://127.0.0.1:5000/`**  
 - You should see the web interface for **Land Consolidation (Chakbandi) using AI Algorithms**.  
 
 ---
 
-### **7. How to Use the System**  
+## Usage Guide  
+
 1. **Upload a Satellite Image**  
    - The system processes the image using AI algorithms.  
 2. **AI-based Detection & Analysis**  
@@ -108,44 +108,7 @@ By default, the Flask server will run on:
 
 ---
 
-### **8. Additional Commands**  
-#### **To deactivate the virtual environment**  
-```bash
-deactivate
-```
-#### **To update dependencies**  
-```bash
-pip install --upgrade flask pandas numpy matplotlib scipy
-```
-#### **To check installed dependencies**  
-```bash
-pip freeze
-```
-
-### **Usage Guide**  
-
-1. **Upload a Satellite Image**  
-   - Users can upload satellite images to be processed.  
-
-2. **AI-based Detection & Analysis**  
-   - The system applies multiple AI algorithms to detect:  
-     - Land **edges & boundaries**  
-     - **Forests, water resources, and infrastructure**  
-
-3. **Cadastral Map Generation**  
-   - Converts processed data into a **cadastral map**.  
-
-4. **Land Consolidation Evaluation**  
-   - Analyzes land ownership and regulatory requirements.  
-   - Suggests optimized **land redistribution plans**.  
-
-5. **View & Download Final Map**  
-   - Displays the final **evaluated Chakbandi cadastral map**.  
-   - Users can download the generated map for reference.  
-
----
-
-### **System Architecture**  
+### System Architecture  
 
 The project follows a **modular architecture** combining **frontend, backend, and AI-based processing**.  
 
@@ -173,11 +136,11 @@ The project follows a **modular architecture** combining **frontend, backend, an
 
 ---
 
-### **Contributing**  
+## Contributing  
 
 We welcome contributions to improve this project!  
 
-#### **How to Contribute**  
+### How to Contribute  
 1. **Fork the Repository**  
    - Click the **Fork** button on GitHub.  
 
@@ -206,17 +169,9 @@ We welcome contributions to improve this project!
    - Open a **Pull Request (PR)** in the original repository.  
    - Describe your changes and submit for review.  
 
-#### **Contribution Guidelines**  
+### Contribution Guidelines  
 - Ensure **clean and well-documented code**.  
 - Follow **best coding practices**.  
 - Test all changes before submitting a **Pull Request**.  
-
----
-
-### **License**  
-
-This project is licensed under the **MIT License**.  
-
-📜 **MIT License** grants permission to use, copy, modify, and distribute the software freely while requiring attribution to the original authors.  
 
 ---
