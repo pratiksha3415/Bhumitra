@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Multiple Cadastral Maps Viewer</title>
+        <link rel="stylesheet" href="static/style4.css">
+    </head>
+    
+<body>
+    <nav>
+        <h1>Current Land Parcels <br> 
+            <span>[A visual Representation of Cadastral Maps]</span>
+        </h1>
+    </nav>
+    
+    <br>
+    <br>
+    <br>
+
+
+    <h4>Upload Cadastral Data Files</h4>
+    <input type="file" id="fileInput" accept=".xlsx, .csv" multiple>
+    <button id="uploadBtn">Upload & Display</button>
+    <div id="map-container"></div>
+
+    <script src="{{ url_for('static', filename='script4.js') }}"></script>
+</body>
+</html>
